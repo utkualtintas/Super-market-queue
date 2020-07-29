@@ -4,8 +4,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-/*THIS CODE IS MY OWN WORK. I DID NOT SEARCH FOR SOLUTION, or I DID NOT CONSULT TO ANY  PROGRAM WRITTEN BY OTHER STUDENTS or DID NOT COPY ANY PROGRAM FROM OTHER SOURCES. 
-I READ AND FOLLOWED THE GUIDELINE GIVEN IN THE PROGRAMMING ASSIGNMENT. NAME: UTKU ALTINTAŞ 71479*/
+
 public class CustomerQueue {
 	public static LinkedList<Customer>queue= new LinkedList<Customer>(); // This is the main queue 
 	static LinkedList<Integer>waitTimes= new LinkedList<Integer>();		// This is the linkedlist where I store wait times of the customers that are serviced which I will use to calculate the average wait time
